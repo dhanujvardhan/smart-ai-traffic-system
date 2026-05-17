@@ -211,26 +211,6 @@ function App() {
 
         </motion.div>
 
-        {/* Live Video Feed */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.6 }}
-          style={videoContainer}
-        >
-
-          <h2 style={sectionTitle}>
-            🎥 Live AI Traffic Feed
-          </h2>
-
-          <img
-            src="https://smart-ai-traffic-system.onrender.com/video"
-            alt="Live Traffic"
-            style={videoStyle}
-          />
-
-        </motion.div>
-
       </motion.div>
 
     </div>
@@ -333,21 +313,6 @@ const chartContainer = {
   borderRadius: "24px",
   backdropFilter: "blur(14px)",
   boxShadow: "0 10px 35px rgba(0,0,0,0.35)"
-};
-
-/* VIDEO SECTION */
-const videoContainer = {
-  marginTop: "70px",
-  textAlign: "center"
-};
-
-/* VIDEO */
-const videoStyle = {
-  width: "85%",
-  maxWidth: "1000px",
-  borderRadius: "24px",
-  border: "3px solid rgba(255,255,255,0.12)",
-  boxShadow: "0 10px 35px rgba(0,0,0,0.55)"
 };
 
 export default App;

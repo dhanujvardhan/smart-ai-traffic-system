@@ -24,7 +24,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:5000/traffic"
+        "https://smart-ai-traffic-system.onrender.com/traffic"
       );
 
       const count = response.data.vehicles;
@@ -224,7 +224,7 @@ function App() {
           </h2>
 
           <img
-            src="http://127.0.0.1:5000/video"
+            src="https://smart-ai-traffic-system.onrender.com/video"
             alt="Live Traffic"
             style={videoStyle}
           />

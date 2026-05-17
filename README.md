@@ -1,40 +1,18 @@
 # 🚦 Smart AI Traffic Management System
 
-An AI-powered traffic monitoring and smart signal control system using YOLOv8, Flask, React.js, and OpenCV.
+An AI-powered traffic monitoring and intelligent signal control system built using React.js, Flask, Python, and modern data visualization tools.
 
 ---
 
-# 🌍 Live Demo
+# 🌟 Features
 
-## Frontend
-https://ai-traffic-system.netlify.app/
-
-## Backend API
-https://smart-ai-traffic-system.onrender.com
-
----
-
-# ✨ Features
-
-- 🚗 Real-time vehicle detection
-- 🚦 Smart traffic signal system
-- 📊 Live analytics dashboard
-- 🎥 AI traffic monitoring
-- ⚡ Real-time API integration
-- 🌐 Full-stack deployment
-- 📈 Traffic visualization charts
-- ✨ Modern animated UI
-
----
-
-# 🧠 AI Technologies Used
-
-- YOLOv8
-- OpenCV
-- Flask
-- React.js
-- Recharts
-- Framer Motion
+✅ Real-Time Vehicle Count Simulation  
+✅ Smart Traffic Signal Logic  
+✅ Dynamic Timer System  
+✅ Live Traffic Analytics Dashboard  
+✅ Animated Modern UI  
+✅ Responsive Design  
+✅ Cloud Deployment using Netlify & Render  
 
 ---
 
@@ -43,26 +21,49 @@ https://smart-ai-traffic-system.onrender.com
 ## Frontend
 - React.js
 - Axios
-- Recharts
 - Framer Motion
+- Recharts
 
 ## Backend
 - Flask
-- OpenCV
-- YOLOv8
-- NumPy
+- Python
+- Flask-CORS
+
+## Deployment
+- GitHub
+- Netlify
+- Render
 
 ---
 
-# 📂 Project Structure
+# 📊 Smart Signal Logic
 
-smart-ai-traffic-system/
+| Vehicle Count | Signal | Timer |
+|---|---|---|
+| 0 – 5 | 🔴 RED | 15s |
+| 6 – 10 | 🟡 YELLOW | 30s |
+| 10+ | 🟢 GREEN | 45s |
 
-├── frontend/
+---
 
-├── backend/
+# 🌐 Live Demo
 
-├── README.md
+## Frontend
+https://ai-traffic-system.netlify.app
+
+## Backend API
+https://smart-ai-traffic-system.onrender.com
+
+---
+
+# 📷 Project Screenshots
+
+## Dashboard UI
+![alt text](image-1.png)
+
+## Live Analytics
+
+![alt text](image-2.png)
 
 ---
 
@@ -72,6 +73,16 @@ smart-ai-traffic-system/
 
 ```bash
 git clone https://github.com/dhanujvardhan/smart-ai-traffic-system.git
+```
+
+---
+
+## Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
 ```
 
 ---
@@ -86,44 +97,20 @@ npm run dev
 
 ---
 
-## Backend Setup
+# 🚀 Future Improvements
 
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-```
-
----
-
-# ☁️ Deployment
-
-## Frontend Deployment
-- Netlify
-
-## Backend Deployment
-- Render
-
----
-
-# 🚀 Future Enhancements
-
-- 🚑 Ambulance priority system
-- 🌍 Google Maps integration
-- 🧠 Traffic prediction AI
-- 📱 Mobile responsive app
-- ☁️ Cloud camera streaming
+- Real CCTV Integration
+- AI-Based Traffic Prediction
+- Emergency Vehicle Detection
+- Firebase Database
+- Authentication System
+- Dark/Light Theme
+- Live Camera Feed
 
 ---
 
 # 👨‍💻 Author
 
-Dhanuj Vardhan Goyal
+## Dhanuj Vardhan Goyal
 
----
-
-# ⭐ If you like this project
-
-Give this repository a star ⭐
+B.Tech CSE (AI & ML)  
